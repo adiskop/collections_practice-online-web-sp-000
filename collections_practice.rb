@@ -27,3 +27,10 @@ end
 def reverse_array(integers)
   integers.reverse
 end
+
+def kesha_maker(strings)
+  strings.each do |string|
+    's' => '$'
+  end
+  
+end
