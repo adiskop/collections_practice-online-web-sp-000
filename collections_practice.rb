@@ -32,5 +32,5 @@ def kesha_maker(strings)
   strings.each do |string|
     's' => '$'
   end
-  
+
 end
