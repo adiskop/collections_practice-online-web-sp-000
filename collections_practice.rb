@@ -45,3 +45,13 @@ def sum_array(integers)
   integers.inject {|result,element|result+element}
 
 end
+
+def add_s(array)
+  array.collect do |string|
+    if string == array[1]
+  string << s 
+else 
+  string 
+  
+  end 
+end
