@@ -42,8 +42,6 @@ string.start_with? "a"
 end
 
 def sum_array(integers)
-  integers.inject {|result,element|
-    result+element
-  }
+  integers.inject {|result,element|result+element}
 
 end
