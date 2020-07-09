@@ -30,7 +30,7 @@ end
 
 def kesha_maker(strings)
   strings.each do |string|
-    's' => '$'
+    string[2] => '$'
   end
 
 end
